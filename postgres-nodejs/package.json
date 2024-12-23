@@ -1,0 +1,19 @@
+{
+  "name": "postgres-nodejs",
+  "version": "1.0.0",
+  "description": "rest api nodejs y postgres",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "node --env-file .env --watch src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.1"
+  }
+}
